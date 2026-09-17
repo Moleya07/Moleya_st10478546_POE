@@ -87,13 +87,8 @@ The-Good-Foundation/
 ├── Donate.html
 ├── style.css
 │
-└── images/
-    ├── tdf 1.jpg
-    ├── fam friendly.png
-    ├── food drive.jpg
-    ├── keep a g.jpeg
-    ├── mandela day.jpg
-    └── career-workshop.jpg
+└── images
+    
 
 ---
 
