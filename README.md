@@ -199,7 +199,6 @@ CSS Cleanup
 - Added smooth transitions to nav links, buttons, and inputs.
 - Replaced decorative <hr> elements with border-bottom on sections.
 
-
 ---
 
 8. References
