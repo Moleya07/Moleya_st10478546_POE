@@ -134,6 +134,8 @@ Part 2 – CSS Styling
 - Added media queries and breakpoints.
 - Applied a mobile-first approach.
 
+Part 
+
 ---
 
 8. References
@@ -148,6 +150,19 @@ W3Schools (2024) CSS introduction. Available at: https://www.w3schools.com/Css/c
 
 edX (2024) Learn CSS. Available at: https://www.edx.org/learn/css (Accessed: 17 September 2026).
 
+Google. (2026). *45 Rissik Street, Louis Trichardt, 0920* [Map]. Available at: https://www.google.com/maps (Accessed: 27 October 2026).
+
+MDN Web Docs. (2026). *Client-side form validation*. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation (Accessed: 27 October 2026).
+
+MDN Web Docs. (2026). *Constraint validation*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation (Accessed: 27 October 2026).
+
+Mozilla. (2026). *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 27 October 2026).
+
+W3C. (2026). *The W3C Markup Validation Service*. Available at: https://validator.w3.org/ (Accessed: 27 October 2026).
+
+W3C. (2026). *CSS Validation Service*. Available at: https://jigsaw.w3.org/css-validator/ (Accessed: 27 October 2026).
+
+web.dev. (2026). *Learn Accessibility*. Available at: https://web.dev/learn/accessibility (Accessed: 27 October 2026).
 
 ---
 
