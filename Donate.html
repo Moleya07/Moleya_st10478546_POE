@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Foundation | Donate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <h1>The Good Foundation</h1>
+            <h2>The Beacon of Hope</h2>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="About_us.html">About Us</a>
+            <a href="Our_Programmes.html">Our Programmes</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Donate.html" class="active">Donate</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Donate / Volunteer</h1>
+            <img src="images/tdf-1.jpg"
+                 alt="The Good Foundation team at a community donation event"
+                 class="feature-img">
+            <p>Ready to make a difference? Reach out today to donate, volunteer, or discover more about our work.</p>
+        </section>
+
+        <section>
+            <h2>Send Us A Message</h2>
+
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name: <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required minlength="2">
+                    <span class="error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email: <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    <span class="error" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone: <span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. 0821234567" required pattern="[0-9+\s\-]{7,15}">
+                    <span class="error" id="phone-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="reason">Reason for Contact: <span class="required">*</span></label>
+                    <select id="reason" name="reason" required>
+                        <option value="">-- Please select --</option>
+                        <option value="donate">I want to donate</option>
+                        <option value="volunteer">I want to volunteer</option>
+                        <option value="partner">I want to partner</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error" id="reason-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message: <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us how you'd like to help..." required minlength="10"></textarea>
+                    <span class="error" id="message-error"></span>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I consent to The Good Foundation storing my details to respond to my query. <span class="required">*</span></label>
+                    <span class="error" id="consent-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+
+                <div id="form-success" class="success-message" role="status" aria-live="polite"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>The Good Foundation</h3>
+                <p>Beacon of Hope</p>
+                <p>45 Risski Str, Louis Trichardt, 0920</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About_us.html">About Us</a></li>
+                    <li><a href="Our_Programmes.html">Our Programmes</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Phone: 015 975 1500</p>
+                <p>Email: <a href="mailto:tgf@org.za">tgf@org.za</a></p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 The Good Foundation. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
