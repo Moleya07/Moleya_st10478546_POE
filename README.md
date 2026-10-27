@@ -135,86 +135,69 @@ Part 2 – CSS Styling
 - Added media queries and breakpoints.
 - Applied a mobile-first approach.
 
-Part 3
+Part 3 - JavaScript
 
 Part 3 
 Hamburger Menu & Navigation
-•	Added a hamburger menu button to all pages.
-•	Styled the hamburger icon with animated ☰ → ✕ transition.
-•	Wrote JavaScript to toggle the navigation menu on click.
-•	Added aria-label and aria-expanded attributes for screen readers.
-•	Ensured the menu closes automatically when a nav link is clicked.
-•	Hid the hamburger and displayed the full nav inline on screens ≥ 600px.
-•	Marked the current page with an .active class on each nav link.
+- Added a hamburger menu button to all pages.
+- Styled the hamburger icon with animated ☰ → ✕ transition.
+- Wrote JavaScript to toggle the navigation menu on click.
+- Added aria-label and aria-expanded attributes for screen readers.
+- Ensured the menu closes automatically when a nav link is clicked.
 
 Form Functionality & Validation
-•	Added a "Reason for Contact" dropdown with four options.
-•	Added a consent checkbox with required validation.
-•	Wrote JavaScript validation for all form fields.
-•	Added required-field checks for name, email, phone, reason, message, and consent.
-•	Added minimum-length validation (name ≥ 2 chars, message ≥ 10 chars).
-•	Added email format validation using a regular expression.
-•	Added phone number validation (7–15 digits with +, -, and spaces).
-•	Implemented real-time validation on blur and input events.
-•	Added inline error messages beneath each invalid field.
-•	Styled invalid fields with red borders and a light-red background.
-•	Moved focus to the first invalid field on failed submission.
-•	Implemented form input processing and a personalised success message.
-•	Added role="status" and aria-live="polite" to the success message.
-•	Reset the form after a successful submission.
-•	Auto-hid the success message after 8 seconds.
+- Added a "Reason for Contact" dropdown with four options.
+- Added a consent checkbox with required validation.
+- Wrote JavaScript validation for all form fields.
+- Added required-field checks for name, email, phone, reason, message, and consent.
+- Added minimum-length validation (name ≥ 2 chars, message ≥ 10 chars).
+- Added email format validation using a regular expression.
+- Added phone number validation (7–15 digits with +, -, and spaces).
+- Implemented real-time validation on blur and input events.
+- Added inline error messages beneath each invalid field.
+- Styled invalid fields with red borders and a light-red background.
+- Moved focus to the first invalid field on failed submission.
+- Implemented form input processing and a personalised success message.
+- Added role="status" and aria-live="polite" to the success message.
+- Reset the form after a successful submission.
+- Auto-hid the success message after 8 seconds.
 
 Google Map
-•	Added a Google Maps embed to the About Us page.
-•	Wrapped the map in a styled container with a gold/green border.
-•	Applied loading="lazy" and referrerpolicy for performance and security.
-•	Added contact cards (phone, email, address) above the map.
+- Added a Google Maps embed to the About Us page.
+- Wrapped the map in a styled container with a gold/green border.
+- Applied loading="lazy" and referrerpolicy for performance and security.
+- Added contact cards (phone, email, address) above the map.
+
 Footer
-•	Added a consistent footer to all five pages.
-•	Included three footer columns: organisation info, quick links, and contact details.
-•	Added a copyright bar with the current year.
-•	Styled the footer to match the site's brand colours.
-•	Made the footer responsive (1 column mobile → 3 columns tablet+).
+- Added a consistent footer to all five pages.
+- Included three footer columns: organisation info, quick links, and contact details.
+- Added a copyright bar with the current year.
+- Styled the footer to match the site's brand colours.
+- Made the footer responsive (1 column mobile → 3 columns tablet+).
 
 Image Handling & Fixes
-•	Renamed image files to remove spaces (e.g. food drive.jpg → food-drive.jpg).
-•	Changed all image paths from backslashes to forward slashes.
-•	Applied object-fit: cover to remove white letterboxing.
-•	Set fixed heights on feature, programme, and gallery images.
-•	Built a responsive CSS Grid gallery layout (1 → 2 → 4 columns).
-•	Added <figure> and <figcaption> elements to each gallery image.
-•	Rewrote all alt attributes to be descriptive.
+- Renamed image files to remove spaces (e.g. food drive.jpg → food-drive.jpg).
+- Changed all image paths from backslashes to forward slashes.
+- Applied object-fit: cover to remove white letterboxing.
+- Set fixed heights on feature, programme, and gallery images.
+- Built a responsive CSS Grid gallery layout (1 → 2 → 4 columns).
+- Added <figure> and <figcaption> elements to each gallery image.
+- Rewrote all alt attributes to be descriptive.
+
 HTML Fixes & Validation
-•	Replaced all invalid <p1> tags with valid <p> tags.
-•	Removed the nested <body> tag from Donate.html.
-•	Closed all unclosed <section> and <main> tags in Gallery.html.
-•	Added missing </body> and </html> tags to two pages.
-•	Wrapped all page content in <main>...</main> consistently.
-•	Reduced each page to a single <h1>, with section headings as <h2>.
-•	Unified the header layout across all five pages.
-•	Standardised page titles using the format The Good Foundation | Page Name.
-•	Validated all pages against the W3C HTML validator.
+- Replaced all invalid <p1> tags with valid <p> tags.
+- Removed the nested <body> tag from Donate.html.
+- Closed all unclosed <section> and <main> tags in Gallery.html.
+- Unified the header layout across all five pages.
+- Standardised page titles using the format The Good Foundation | Page Name.
+
 CSS Cleanup
-•	Consolidated duplicate h2 and a:link rules.
-•	Split the stylesheet into clearly commented sections.
-•	Removed unused header img and p1 selectors.
-•	Added focus-visible styles for keyboard users.
-•	Added smooth transitions to nav links, buttons, and inputs.
-•	Replaced decorative <hr> elements with border-bottom on sections.
-Responsive Design
-•	Rebuilt the stylesheet using a mobile-first approach.
-•	Added breakpoints at 600px and 900px.
-•	Made the gallery, contact cards, and footer grid responsive.
-•	Tested the layout at 320px, 600px, 900px, and 1440px.
-Accessibility
-•	Added <label> elements to every form field.
-•	Added descriptive alt text to every image.
-•	Added ARIA attributes to the hamburger and success message.
-•	Verified colour contrast against WCAG AA guidelines.
-•	Ensured every page has <html lang="en">.
-
-
-
+- Consolidated duplicate h2 and a:link rules.
+- Split the stylesheet into clearly commented sections.
+- Removed unused header img and p1 selectors.
+- Added focus-visible styles for keyboard users.
+- Added smooth transitions to nav links, buttons, and inputs.
+- Replaced decorative <hr> elements with border-bottom on sections.
 
 
 ---
