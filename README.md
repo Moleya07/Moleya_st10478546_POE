@@ -8,7 +8,7 @@ The website represents a non-profit organisation known as **The Good Foundation*
 
 ---
 
-1. Project Purpose
+# 1. Project Purpose
 
 The purpose of the website is to create an online presence for The Good Foundation and provide visitors with information about the organisation.
 
@@ -23,17 +23,17 @@ The website aims to:
 
 ---
 
-2. Website Pages
+# 2. Website Pages
 
 The website consists of five main pages:
 
-# Home
+Home
 Introduces The Good Foundation and provides information about its values, mission and vision.
 
-# About Us
+About Us
 Provides information about the organisation's story and contact details.
 
-# Our Programmes
+Our Programmes
 Provides information about community programmes such as:
 
 - Food Distribution Drive
@@ -41,15 +41,15 @@ Provides information about community programmes such as:
 - Career & Academic Development Workshop
 - Mandela Day Outreach
 
-# Gallery
+Gallery
 Displays images showing the organisation's programmes and community activities.
 
-# Donate
+Donate
 Encourages visitors to support the organisation and provides a contact form where users can enter their name, email address, phone number and message.
 
 ---
 
-3. Technologies Used
+# 3. Technologies Used
 
 The website was developed using:
 
@@ -58,10 +58,10 @@ The website was developed using:
 - JavaScript
 - Visual Studio Code
 
-Note: An external CSS file is used to maintain consistent styling across the website.
+Note: External CSS and JavaScript files are used to maintain consistent styling across the website.
 
 ---
-4. Responsive Web Design
+# 4. Responsive Web Design
 
 The website uses Responsive Web Design to improve its appearance on different screen sizes.
 
@@ -75,7 +75,7 @@ The website follows a mobile-first approach, where the basic design is suitable 
 
 ---
 
-5. Project Structure
+# 5. Project Structure
 
 The project uses the following file structure:
 
@@ -93,7 +93,7 @@ The-Good-Foundation/
 
 ---
 
-6. Navigation
+# 6. Navigation
 
 All main pages are connected using a navigation menu.
 
@@ -105,7 +105,7 @@ This allows users to move between the different sections of the website easily.
 
 ---
 
-7. Changelog
+# 7. Changelog
 
 Part 1 – HTML Foundation
 
@@ -137,7 +137,6 @@ Part 2 – CSS Styling
 
 Part 3 - JavaScript
 
-Part 3 
 Hamburger Menu & Navigation
 - Added a hamburger menu button to all pages.
 - Styled the hamburger icon with animated ☰ → ✕ transition.
@@ -201,7 +200,7 @@ CSS Cleanup
 
 ---
 
-8. References
+# 8. References
 
 Visual Studio Code (n.d.) Visual Studio Code for the Web. Available at: https://vscode.dev/ (Accessed: 17 September 2026).
 
@@ -229,9 +228,9 @@ web.dev. (2026). *Learn Accessibility*. Available at: https://web.dev/learn/acce
 
 ---
 
-9. Author
+# 9. Author
 
 Student: Lehlogonolo Moleya  
 Institution: Rosebank International  
-Project:** Web Development and Design PoE  
+Project: Web Development and Design PoE  
 Year: 2026
